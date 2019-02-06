@@ -1,0 +1,162 @@
+body{
+  background-color:#cde8f6;
+  margin: 0;
+  /* text-align: center; */
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 5.62rem;
+  font-weight: bold;
+  margin:10px auto 0 auto;
+  color:#66BFBF;
+  text-align: center;
+}
+h2{
+  font-family: 'Slabo 35px', serif;
+  font-size: 2.5rem;
+  color:#66BFBF;
+  font-weight:normal;
+  text-align: center;
+  padding-top: 10px;
+}
+h3{
+  font-family: 'Slabo 25px', serif;
+  font-size: 1.5rem;
+  color: #11999E;
+  font-weight: normal;
+}
+p{
+  font-style: italic;
+  font-size: 1.5rem;
+  color: #11999E;
+  font-weight: normal;
+  margin: 50px 20px;;
+  }
+
+    hr{
+      padding: 20px;
+      border-style:none;
+      border-top-style: dotted;
+      border-color: grey;
+      border-width: 7px;
+      height: 0px;
+      width: 20%;
+    }
+
+    .footer-link{
+      color: blue;
+      text-decoration: none;
+      margin: 30px;
+      }
+      a{
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+      }
+    a:hover{
+      color:red;
+    }
+
+
+.container{
+  background-color: #cde8f6;
+  position: relative;
+  padding-top: 50px;
+  margin-top: 10px;
+}
+
+.middle-container{
+  border-radius: 50%;
+  background-color: #cde8f6;
+  position: relative;
+  padding: 20px;
+}
+
+.hello{
+  text-align: center;
+}
+
+.Emoji{
+  border-radius: 50%;
+  margin-right: 50px;
+  margin-top: 90px;
+}
+.myname{
+  margin-left: 150px;
+padding-top: 50px;
+}
+.top-cloud{
+  width: 50%;
+margin-right: 200px;
+margin-top: 50px;
+}
+.Emoji-sun{
+  text-align: center;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+
+.bottom-container{
+  background-color:#cde8f6;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.skill-row{
+  text-align: center;
+  margin-bottom: 100px;
+  margin-right: 20px;
+
+}
+.my-skill1{
+  border-radius: 50%;
+  width: 30%;
+  margin: 30px 30px;
+}
+.footer{
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.copyright{
+  position:relative;
+  font-size:10px;
+  margin-top: 50px;
+}
+
+/*---------------  about me page------------*/
+
+
+.about-pic{
+  border-radius: 40%;
+  text-align: center;
+}
+.aboutme-header{
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 4rem;
+  color:#66BFBF;
+}
+.para-about{
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.my-home{
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+}
+.fab{
+  padding-right: 10px;
+}
+/* --------------------------media----------*/
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+}
